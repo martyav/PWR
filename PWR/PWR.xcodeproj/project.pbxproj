@@ -49,7 +49,6 @@
 		0549B0AB1F8F0D4C002ABF2F /* SenatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0549B0AA1F8F0D4C002ABF2F /* SenatorViewController.swift */; };
 		0549B0B11F8F49DE002ABF2F /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0549B0B01F8F49DE002ABF2F /* BannerView.swift */; };
 		0576E0901F915130005F2C8D /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0576E08E1F915130005F2C8D /* HomeTableViewCell.swift */; };
-		0576E0911F915130005F2C8D /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0576E08F1F915130005F2C8D /* HomeTableViewCell.xib */; };
 		0576E0931F9169CF005F2C8D /* HomeViewControllerTableDelegateMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0576E0921F9169CF005F2C8D /* HomeViewControllerTableDelegateMethods.swift */; };
 		058AB93E1F89B6B9008DEC39 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058AB93D1F89B6B9008DEC39 /* Endpoints.swift */; };
 		058AB9401F89B72A008DEC39 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058AB93F1F89B72A008DEC39 /* APIManager.swift */; };
@@ -125,7 +124,6 @@
 		0549B0AA1F8F0D4C002ABF2F /* SenatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenatorViewController.swift; sourceTree = "<group>"; };
 		0549B0B01F8F49DE002ABF2F /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 		0576E08E1F915130005F2C8D /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
-		0576E08F1F915130005F2C8D /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
 		0576E0921F9169CF005F2C8D /* HomeViewControllerTableDelegateMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerTableDelegateMethods.swift; sourceTree = "<group>"; };
 		058AB93D1F89B6B9008DEC39 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
 		058AB93F1F89B72A008DEC39 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
@@ -352,7 +350,6 @@
 				04BA613E1F876BCF0079BF9A /* HomeViewController.swift */,
 				0576E0921F9169CF005F2C8D /* HomeViewControllerTableDelegateMethods.swift */,
 				0576E08E1F915130005F2C8D /* HomeTableViewCell.swift */,
-				0576E08F1F915130005F2C8D /* HomeTableViewCell.xib */,
 			);
 			path = HomeViewController;
 			sourceTree = "<group>";
@@ -509,7 +506,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				04BA613D1F876BB10079BF9A /* Home.storyboard in Resources */,
-				0576E0911F915130005F2C8D /* HomeTableViewCell.xib in Resources */,
 				04BA61451F8846AE0079BF9A /* LoginStoryboard.storyboard in Resources */,
 				042667A31F848D930063FFE3 /* senators.xml in Resources */,
 				04E8F1221F847F62002C299A /* LaunchScreen.storyboard in Resources */,

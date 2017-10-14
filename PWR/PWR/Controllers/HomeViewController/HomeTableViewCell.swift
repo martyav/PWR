@@ -16,6 +16,7 @@ class HomeTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        print("---------------------")
         
         pic.layer.cornerRadius = pic.frame.width/2
         pic.layer.borderColor = UIColor.PWRblueDark.cgColor
@@ -27,6 +28,5 @@ class HomeTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
-    }
-    
+    }    
 }
