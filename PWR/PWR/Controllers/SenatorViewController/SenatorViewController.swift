@@ -30,8 +30,9 @@ class SenatorViewController: UIViewController {
         // dummy data
         
         self.commitees = ["A","B","C","D"]
-        let law = Bill(name: "A", number: "", lastAction: "")
-        self.cosponsorships = [law, law, law, law]
+        let law = Bill(name: "ABC", number: "", lastAction: "")
+        let wal = Bill(name: "XYZ", number: "", lastAction: "")
+        self.cosponsorships = [law, wal, law, wal]
         self.votingRecord = [(bill: law, votedInFavor: true), (bill: law, votedInFavor: false)]
         
         tableView.delegate = self

@@ -112,7 +112,7 @@
                                 <color key="sectionIndexColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="sectionIndexBackgroundColor" red="0.87058823529411766" green="0.32549019607843138" blue="0.32549019607843138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" shouldIndentWhileEditing="NO" reuseIdentifier="votingOrCommitee" textLabel="XAg-OC-NcR" detailTextLabel="JBZ-Dg-fMb" style="IBUITableViewCellStyleValue1" id="9if-JX-xSJ">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" shouldIndentWhileEditing="NO" reuseIdentifier="votingOrCommitee" textLabel="XAg-OC-NcR" detailTextLabel="JBZ-Dg-fMb" style="IBUITableViewCellStyleValue1" id="9if-JX-xSJ" customClass="CommitteeOrBillTableViewCell" customModule="PWR" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9if-JX-xSJ" id="btx-QZ-Ooz">

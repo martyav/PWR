@@ -8,21 +8,22 @@
 
 import Foundation
 
-func retrieveKey(forAPI keyname: String) -> String {
-    let filePath = Bundle.main.path(forResource: "AdditionalInfo", ofType: "plist")
-    
-    let plist = NSDictionary(contentsOfFile: filePath!)
-    
-    let value: String = plist?.object(forKey: keyname) as! String
-    
-    return value
-}
+//func retrieveKey(forAPI keyname: String) -> String {
+//    let filePath = Bundle.main.path(forResource: "AdditionalInfo", ofType: "plist")
+//    
+//    let plist = NSDictionary(contentsOfFile: filePath!)
+//    
+//    let value: String = plist?.object(forKey: keyname) as! String
+//    
+//    return value
+//}
 
 class APIManager {
     private init() {}
     static let instance = APIManager()
     
-    private let key = retrieveKey(forAPI: "Propublica")
+   // private let key = retrieveKey(forAPI: "Propublica")
+    private let key = "4DGZbMzxAHDFu8sCJ78GJBZX3S25F40c66mx2HI8"
     
     func getData(on endpoint: URL, callback: @escaping (Data?) -> Void) {
         let session = URLSession(configuration: URLSessionConfiguration.default)
